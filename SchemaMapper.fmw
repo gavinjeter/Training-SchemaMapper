@@ -1,0 +1,439 @@
+#! <?xml version="1.0" encoding="UTF-8" ?>
+#! <WORKSPACE
+#    Command line to run this workspace:
+#        "C:\Program Files\FME\FME2024-1-2-1\fme.exe" C:\Users\Gavin\Documents\FME\Repositories\Training\SchemaMapper\SchemaMapper.fmw
+#          --FME_LAUNCH_VIEWER_APP "YES"
+#    
+#!   A0_PREVIEW_IMAGE="data:image/png;base64,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"
+#!   ARCGIS_COMPATIBILITY="ARCGIS_AUTO"
+#!   ATTR_TYPE_ENCODING="SDF"
+#!   BEGIN_PYTHON=""
+#!   BEGIN_TCL=""
+#!   CATEGORY=""
+#!   DESCRIPTION=""
+#!   DESTINATION="NONE"
+#!   DESTINATION_ROUTING_FILE=""
+#!   DOC_EXTENTS="1991.57 390.628"
+#!   DOC_TOP_LEFT="439.241 -652.506"
+#!   END_PYTHON=""
+#!   END_TCL=""
+#!   EXPLICIT_BOOKMARK_ORDER="false"
+#!   FME_BUILD_NUM="24624"
+#!   FME_BULK_MODE_THRESHOLD="2000"
+#!   FME_DOCUMENT_GUID="fc2d75d1-00ed-4d04-9f65-ae8d62deb830"
+#!   FME_DOCUMENT_PRIORGUID=""
+#!   FME_GEOMETRY_HANDLING="Enhanced"
+#!   FME_IMPLICIT_CSMAP_REPROJECTION_MODE="Auto"
+#!   FME_NAMES_ENCODING="UTF-8"
+#!   FME_REPROJECTION_ENGINE="FME"
+#!   FME_SERVER_SERVICES=""
+#!   FME_STROKE_MAX_DEVIATION="0"
+#!   HISTORY=""
+#!   IGNORE_READER_FAILURE="No"
+#!   LAST_SAVE_BUILD="FME(R) 2024.1.2.1 (20240906 - Build 24624 - WIN64)"
+#!   LAST_SAVE_DATE="2025-03-12T20:21:13"
+#!   LOG_FILE=""
+#!   LOG_MAX_RECORDED_FEATURES="200"
+#!   MARKDOWN_DESCRIPTION=""
+#!   MARKDOWN_USAGE=""
+#!   MAX_LOG_FEATURES="200"
+#!   MULTI_WRITER_DATASET_ORDER="BY_ID"
+#!   PASSWORD=""
+#!   PYTHON_COMPATIBILITY="312"
+#!   REDIRECT_TERMINATORS="NONE"
+#!   SAVE_ON_PROMPT_AND_RUN="Yes"
+#!   SHOW_ANNOTATIONS="true"
+#!   SHOW_INFO_NODES="true"
+#!   SOURCE="NONE"
+#!   SOURCE_ROUTING_FILE=""
+#!   TERMINATE_REJECTED="YES"
+#!   TITLE=""
+#!   USAGE=""
+#!   USE_MARKDOWN=""
+#!   VIEW_POSITION="-503.477 130.21"
+#!   WARN_INVALID_XFORM_PARAM="Yes"
+#!   WORKSPACE_VERSION="1"
+#!   ZOOM_SCALE="72"
+#! >
+#! <DATASETS>
+#! </DATASETS>
+#! <DATA_TYPES>
+#! </DATA_TYPES>
+#! <GEOM_TYPES>
+#! </GEOM_TYPES>
+#! <FEATURE_TYPES>
+#! </FEATURE_TYPES>
+#! <FMESERVER>
+#! <READER_DATASETS>
+#! <DATASET
+#!   NAME="FeatureReader"
+#!   OVERRIDE="--FeatureReaderDataset_FeatureReader"
+#!   DATASET="FeatureReader/networks"
+#! />
+#! </READER_DATASETS>
+#! </FMESERVER>
+#! <GLOBAL_PARAMETERS>
+#! </GLOBAL_PARAMETERS>
+#! <USER_PARAMETERS
+#!   FORM="eyJwYXJhbWV0ZXJzIjpbXX0="
+#! >
+#! <PARAMETER_INFO>
+#! </PARAMETER_INFO>
+#! </USER_PARAMETERS>
+#! <COMMENTS>
+#! <COMMENT
+#!   IDENTIFIER="5"
+#!   COMMENT_VALUE="&lt;!DOCTYPE HTML PUBLIC &quot;-//W3C//DTD HTML 4.0//EN&quot; &quot;http://www.w3.org/TR/REC-html40/strict.dtd&quot;&gt;&#10;&lt;html&gt;&lt;head&gt;&lt;meta name=&quot;qrichtext&quot; content=&quot;1&quot; /&gt;&lt;meta charset=&quot;utf-8&quot; /&gt;&lt;style type=&quot;text/css&quot;&gt;&#10;p, li { white-space: pre-wrap; }&#10;hr { height: 1px; border-width: 0; }&#10;li.unchecked::marker { content: &quot;\2610&quot;; }&#10;li.checked::marker { content: &quot;\2612&quot;; }&#10;&lt;/style&gt;&lt;/head&gt;&lt;body style=&quot; font-family:&apos;Segoe UI&apos;; font-size:9pt; font-weight:400; font-style:normal;&quot;&gt;&#10;&lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;Free Open API&lt;/p&gt;&#10;&lt;p style=&quot;-qt-paragraph-type:empty; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;br /&gt;&lt;/p&gt;&#10;&lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;http://api.citybik.es/v2/networks&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;"
+#!   POSITION="1036.0050000500005 -261.87821878218779"
+#!   TOP_LEFT="1036.0050000500005 -261.87821878218779"
+#!   BOTTOM_RIGHT="1518.7241709917098 -262.87821878218779"
+#!   BOUNDING_RECT="1036.0050000500005 -261.87821878218779 482.71917094170942 1"
+#!   ORDER="500000000000003"
+#!   FOLLOW_ANCHOR="true"
+#!   INFO_NODE="false"
+#!   CUSTOM_USER_COLOR="false"
+#!   UUID="{16835023-6e16-44e2-8277-f7700b51a28a}"
+#!   COLOUR="0.59999999999999998,0.47058823529411764,0,0.90196078431372551"
+#!   SIZE_POLICY="10"
+#!   ANCHORED_NODE="3"
+#! />
+#! <COMMENT
+#!   IDENTIFIER="8"
+#!   COMMENT_VALUE="&lt;!DOCTYPE HTML PUBLIC &quot;-//W3C//DTD HTML 4.0//EN&quot; &quot;http://www.w3.org/TR/REC-html40/strict.dtd&quot;&gt;&#10;&lt;html&gt;&lt;head&gt;&lt;meta name=&quot;qrichtext&quot; content=&quot;1&quot; /&gt;&lt;meta charset=&quot;utf-8&quot; /&gt;&lt;style type=&quot;text/css&quot;&gt;&#10;p, li { white-space: pre-wrap; }&#10;hr { height: 1px; border-width: 0; }&#10;li.unchecked::marker { content: &quot;\2610&quot;; }&#10;li.checked::marker { content: &quot;\2612&quot;; }&#10;&lt;/style&gt;&lt;/head&gt;&lt;body style=&quot; font-family:&apos;Segoe UI&apos;; font-size:9pt; font-weight:400; font-style:normal;&quot;&gt;&#10;&lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;Explode list of Networks&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;"
+#!   POSITION="1994.8106147728142 -402.50462504625045"
+#!   TOP_LEFT="1994.8106147728142 -402.50462504625045"
+#!   BOTTOM_RIGHT="2430.8008027996943 -403.50462504625045"
+#!   BOUNDING_RECT="1994.8106147728142 -402.50462504625045 435.99018802688028 1"
+#!   ORDER="500000000000006"
+#!   FOLLOW_ANCHOR="true"
+#!   INFO_NODE="false"
+#!   CUSTOM_USER_COLOR="false"
+#!   UUID="{fd4272e8-925b-46a5-b374-e89c39dbb032}"
+#!   COLOUR="0.59999999999999998,0.47058823529411764,0,0.90196078431372551"
+#!   SIZE_POLICY="10"
+#!   ANCHORED_NODE="6"
+#! />
+#! </COMMENTS>
+#! <CONSTANTS>
+#! </CONSTANTS>
+#! <BOOKMARKS>
+#! </BOOKMARKS>
+#! <TRANSFORMERS>
+#! <TRANSFORMER
+#!   IDENTIFIER="2"
+#!   TYPE="Creator"
+#!   VERSION="7"
+#!   POSITION="439.24050351614642 -587.50587505875058"
+#!   BOUNDING_RECT="439.24050351614642 -587.50587505875058 436 65"
+#!   ORDER="500000000000001"
+#!   PARMS_EDITED="false"
+#!   ENABLED="true"
+#!   LAST_PARM_EDIT="24624"
+#! >
+#!     <OUTPUT_FEAT NAME="CREATED"/>
+#!     <FEAT_COLLAPSED COLLAPSED="0"/>
+#!     <XFORM_ATTR ATTR_NAME="_creation_instance" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_PARM PARM_NAME="ATEND" PARM_VALUE="no"/>
+#!     <XFORM_PARM PARM_NAME="COORDSYS" PARM_VALUE=""/>
+#!     <XFORM_PARM PARM_NAME="CRE_ATTR" PARM_VALUE="_creation_instance"/>
+#!     <XFORM_PARM PARM_NAME="GEOJSON" PARM_VALUE="&lt;Unused&gt;"/>
+#!     <XFORM_PARM PARM_NAME="GEOM" PARM_VALUE="&lt;lt&gt;?xml&lt;space&gt;version=&lt;quote&gt;1.0&lt;quote&gt;&lt;space&gt;encoding=&lt;quote&gt;US_ASCII&lt;quote&gt;&lt;space&gt;standalone=&lt;quote&gt;no&lt;quote&gt;&lt;space&gt;?&lt;gt&gt;&lt;lt&gt;geometry&lt;space&gt;dimension=&lt;quote&gt;2&lt;quote&gt;&lt;gt&gt;&lt;lt&gt;null&lt;solidus&gt;&lt;gt&gt;&lt;lt&gt;&lt;solidus&gt;geometry&lt;gt&gt;"/>
+#!     <XFORM_PARM PARM_NAME="GEOMTYPE" PARM_VALUE="Geometry Object"/>
+#!     <XFORM_PARM PARM_NAME="NUM" PARM_VALUE="1"/>
+#!     <XFORM_PARM PARM_NAME="OAN_GROUP" PARM_VALUE=""/>
+#!     <XFORM_PARM PARM_NAME="PARAMETERS_GROUP" PARM_VALUE=""/>
+#!     <XFORM_PARM PARM_NAME="TRANSFORMER_GROUP" PARM_VALUE=""/>
+#!     <XFORM_PARM PARM_NAME="XFORMER_NAME" PARM_VALUE="Creator"/>
+#! </TRANSFORMER>
+#! <TRANSFORMER
+#!   IDENTIFIER="3"
+#!   TYPE="FeatureReader"
+#!   VERSION="14"
+#!   POSITION="1036.0050000500005 -587.50587505875058"
+#!   BOUNDING_RECT="1036.0050000500005 -587.50587505875058 482.76018760187594 65"
+#!   ORDER="500000000000002"
+#!   PARMS_EDITED="true"
+#!   ENABLED="true"
+#!   LAST_PARM_EDIT="24624"
+#! >
+#!     <OUTPUT_FEAT NAME="&lt;SCHEMA&gt;"/>
+#!     <FEAT_COLLAPSED COLLAPSED="0"/>
+#!     <XFORM_ATTR ATTR_NAME="_creation_instance" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="fme_feature_type_name" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="attribute{}.name" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="attribute{}.fme_data_type" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="attribute{}.native_data_type" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="fme_format_short_name" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="fme_format_long_name" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="fme_schema_handling" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <OUTPUT_FEAT NAME="JSONFeature"/>
+#!     <FEAT_COLLAPSED COLLAPSED="1"/>
+#!     <XFORM_ATTR ATTR_NAME="networks{}.instances{}.tag" IS_USER_CREATED="false" FEAT_INDEX="1" />
+#!     <XFORM_ATTR ATTR_NAME="networks{}.instances{}.meta.city" IS_USER_CREATED="false" FEAT_INDEX="1" />
+#!     <XFORM_ATTR ATTR_NAME="networks{}.instances{}.meta.country" IS_USER_CREATED="false" FEAT_INDEX="1" />
+#!     <XFORM_ATTR ATTR_NAME="networks{}.instances{}.meta.name" IS_USER_CREATED="false" FEAT_INDEX="1" />
+#!     <XFORM_ATTR ATTR_NAME="networks{}.instances{}.meta.latitude" IS_USER_CREATED="false" FEAT_INDEX="1" />
+#!     <XFORM_ATTR ATTR_NAME="networks{}.instances{}.meta.longitude" IS_USER_CREATED="false" FEAT_INDEX="1" />
+#!     <XFORM_ATTR ATTR_NAME="networks{}.scooters" IS_USER_CREATED="false" FEAT_INDEX="1" />
+#!     <XFORM_ATTR ATTR_NAME="networks{}.ebikes" IS_USER_CREATED="false" FEAT_INDEX="1" />
+#!     <XFORM_ATTR ATTR_NAME="networks{}.system" IS_USER_CREATED="false" FEAT_INDEX="1" />
+#!     <XFORM_ATTR ATTR_NAME="networks{}.id" IS_USER_CREATED="false" FEAT_INDEX="1" />
+#!     <XFORM_ATTR ATTR_NAME="networks{}.name" IS_USER_CREATED="false" FEAT_INDEX="1" />
+#!     <XFORM_ATTR ATTR_NAME="networks{}.location.latitude" IS_USER_CREATED="false" FEAT_INDEX="1" />
+#!     <XFORM_ATTR ATTR_NAME="networks{}.location.longitude" IS_USER_CREATED="false" FEAT_INDEX="1" />
+#!     <XFORM_ATTR ATTR_NAME="networks{}.location.city" IS_USER_CREATED="false" FEAT_INDEX="1" />
+#!     <XFORM_ATTR ATTR_NAME="networks{}.location.country" IS_USER_CREATED="false" FEAT_INDEX="1" />
+#!     <XFORM_ATTR ATTR_NAME="networks{}.href" IS_USER_CREATED="false" FEAT_INDEX="1" />
+#!     <XFORM_ATTR ATTR_NAME="networks{}.company{}" IS_USER_CREATED="false" FEAT_INDEX="1" />
+#!     <XFORM_ATTR ATTR_NAME="networks{}.source" IS_USER_CREATED="false" FEAT_INDEX="1" />
+#!     <XFORM_ATTR ATTR_NAME="networks{}.license.name" IS_USER_CREATED="false" FEAT_INDEX="1" />
+#!     <XFORM_ATTR ATTR_NAME="networks{}.license.url" IS_USER_CREATED="false" FEAT_INDEX="1" />
+#!     <XFORM_ATTR ATTR_NAME="networks{}.gbfs_href" IS_USER_CREATED="false" FEAT_INDEX="1" />
+#!     <OUTPUT_FEAT NAME="&lt;OTHER&gt;"/>
+#!     <FEAT_COLLAPSED COLLAPSED="2"/>
+#!     <OUTPUT_FEAT NAME="INITIATOR"/>
+#!     <FEAT_COLLAPSED COLLAPSED="3"/>
+#!     <XFORM_ATTR ATTR_NAME="_creation_instance" IS_USER_CREATED="false" FEAT_INDEX="3" />
+#!     <XFORM_ATTR ATTR_NAME="_matched_records" IS_USER_CREATED="false" FEAT_INDEX="3" />
+#!     <OUTPUT_FEAT NAME="&lt;REJECTED&gt;"/>
+#!     <FEAT_COLLAPSED COLLAPSED="4"/>
+#!     <XFORM_ATTR ATTR_NAME="_creation_instance" IS_USER_CREATED="false" FEAT_INDEX="4" />
+#!     <XFORM_ATTR ATTR_NAME="_reader_error" IS_USER_CREATED="false" FEAT_INDEX="4" />
+#!     <XFORM_PARM PARM_NAME="ATTRIBUTES" PARM_VALUE="JSONFeature,&quot;networks{}.instances{}.tag,networks{}.instances{}.meta.city,networks{}.instances{}.meta.country,networks{}.instances{}.meta.name,networks{}.instances{}.meta.latitude,networks{}.instances{}.meta.longitude,networks{}.scooters,networks{}.ebikes,networks{}.system,networks{}.id,networks{}.name,networks{}.location.latitude,networks{}.location.longitude,networks{}.location.city,networks{}.location.country,networks{}.href,networks{}.company{},networks{}.source,networks{}.license.name,networks{}.license.url,networks{}.gbfs_href&quot;"/>
+#!     <XFORM_PARM PARM_NAME="ATTRIBUTE_TYPES" PARM_VALUE="JSONFeature,&quot;buffer,buffer,buffer,buffer,real64,real64,logical,logical,buffer,buffer,buffer,real64,real64,buffer,buffer,buffer,buffer,buffer,buffer,buffer,buffer&quot;"/>
+#!     <XFORM_PARM PARM_NAME="ATTRS_TO_EXPOSE" PARM_VALUE=""/>
+#!     <XFORM_PARM PARM_NAME="ATTR_ACCUM_MODE" PARM_VALUE="Only Use Result"/>
+#!     <XFORM_PARM PARM_NAME="ATTR_CONFLICT_RES" PARM_VALUE="&lt;Unused&gt;"/>
+#!     <XFORM_PARM PARM_NAME="ATTR_IGNORE_NULLS" PARM_VALUE="&lt;Unused&gt;"/>
+#!     <XFORM_PARM PARM_NAME="ATTR_PREFIX" PARM_VALUE="&lt;Unused&gt;"/>
+#!     <XFORM_PARM PARM_NAME="AVAILABLE_FEATURE_TYPES" PARM_VALUE="_FEATUREREADER_OPTIONAL_FTTR_%JSONFeature"/>
+#!     <XFORM_PARM PARM_NAME="CACHE_TIMEOUT_HRS" PARM_VALUE="&lt;Unused&gt;"/>
+#!     <XFORM_PARM PARM_NAME="COMBINE_GEOM" PARM_VALUE="Use Result"/>
+#!     <XFORM_PARM PARM_NAME="CONSTRAINTS_GROUP" PARM_VALUE="FME_DISCLOSURE_OPEN"/>
+#!     <XFORM_PARM PARM_NAME="COORDSYS" PARM_VALUE=""/>
+#!     <XFORM_PARM PARM_NAME="DATASET" PARM_VALUE="http:&lt;solidus&gt;&lt;solidus&gt;api.citybik.es&lt;solidus&gt;v2&lt;solidus&gt;networks"/>
+#!     <XFORM_PARM PARM_NAME="DYNGROUP_0" PARM_VALUE=""/>
+#!     <XFORM_PARM PARM_NAME="ENABLE_CACHE" PARM_VALUE="NO"/>
+#!     <XFORM_PARM PARM_NAME="FEATURETYPES" PARM_VALUE=""/>
+#!     <XFORM_PARM PARM_NAME="FORCE_REFRESH_OUTPUTS" PARM_VALUE="on_parm_change"/>
+#!     <XFORM_PARM PARM_NAME="FORMAT" PARM_VALUE="JSON"/>
+#!     <XFORM_PARM PARM_NAME="FORMAT_ATTRIBUTE_TYPES" PARM_VALUE="JSONFeature,"/>
+#!     <XFORM_PARM PARM_NAME="FORMAT_DIRECTIVES" PARM_VALUE="METAFILE,JSON"/>
+#!     <XFORM_PARM PARM_NAME="FORMAT_PARAMS" PARM_VALUE="JSON_USE_BASENAME_AS_DEFAULT_FEATURE_TYPE,&quot;OPTIONAL NO_EDIT TEXT&quot;,JSON&lt;space&gt;,JSON_DECODE_TEXT_STRINGS,&quot;OPTIONAL NO_EDIT TEXT&quot;,JSON&lt;space&gt;,JSON_USE_SEARCH_ENVELOPE,&quot;OPTIONAL ACTIVEDISCLOSUREGROUP SEARCH_ENVELOPE_MINX%SEARCH_ENVELOPE_MINY%SEARCH_ENVELOPE_MAXX%SEARCH_ENVELOPE_MAXY%SEARCH_ENVELOPE_COORDINATE_SYSTEM%CLIP_TO_ENVELOPE%SEARCH_METHOD%SEARCH_METHOD_FILTER%SEARCH_ORDER%SEARCH_FEATURE%DUMMY_SEARCH_ENVELOPE_PARAMETER&quot;,JSON&lt;space&gt;Use&lt;space&gt;Search&lt;space&gt;Envelope,JSON_GEOMETRY_FORMAT,&quot;OPTIONAL ACTIVECHOICE GeoJSON%OGC-WKT%None,GEOMETRY_KEY,COORDINATE_SYSTEM_KEY&quot;,JSON&lt;space&gt;Geometry&lt;space&gt;Format:,JSON_FLATTEN_MODE,&quot;OPTIONAL LOOKUP_CHOICE Yes,ALL_LEVELS%No,ONE_LEVEL&quot;,JSON&lt;space&gt;Flatten&lt;space&gt;Nested&lt;space&gt;JSON&lt;space&gt;Values&lt;space&gt;into&lt;space&gt;Attributes:,JSON_SAVE_FRAGMENTS,&quot;OPTIONAL LOOKUP_CHOICE Yes,YES%No,NO&quot;,JSON&lt;space&gt;Read&lt;space&gt;Entire&lt;space&gt;Feature&lt;space&gt;as&lt;space&gt;JSON&lt;space&gt;Fragment:,JSON_NETWORK_AUTHENTICATION,&quot;OPTIONAL AUTHENTICATOR CONTAINER%ACTIVEDISCLOSUREGROUP%CONTAINER_TITLE%Use Network Authentication%PROMPT_TYPE%NETWORK&quot;,JSON&lt;space&gt;Use&lt;space&gt;Network&lt;space&gt;Authentication,JSON_EXPOSE_ATTRS_GROUP,&quot;OPTIONAL DISCLOSUREGROUP JSON_EXPOSE_FORMAT_ATTRS&quot;,JSON&lt;space&gt;Schema&lt;space&gt;Attributes,JSON_FEATURE_TYPE_KEY,&quot;OPTIONAL TEXT&quot;,JSON&lt;space&gt;Feature&lt;space&gt;Type&lt;space&gt;Key&lt;space&gt;Name:,JSON_SCAN_MODE,&quot;OPTIONAL ACTIVECHOICE_LOOKUP Auto,AUTO,QUERY_TABLE%JSON&lt;space&gt;Query,QUERY&quot;,JSON&lt;space&gt;Schema&lt;space&gt;Scan&lt;space&gt;Mode,JSON_JSON_EXPOSE_FORMAT_ATTRS,&quot;OPTIONAL LITERAL EXPOSED_ATTRS JSON%Source&quot;,JSON&lt;space&gt;Additional&lt;space&gt;Attributes&lt;space&gt;to&lt;space&gt;Expose:"/>
+#!     <XFORM_PARM PARM_NAME="FTTR_SEPARATOR" PARM_VALUE="SPACE"/>
+#!     <XFORM_PARM PARM_NAME="GENERIC_GROUP" PARM_VALUE=""/>
+#!     <XFORM_PARM PARM_NAME="GEOMETRY_TYPES" PARM_VALUE=""/>
+#!     <XFORM_PARM PARM_NAME="INTERACT" PARM_VALUE="&lt;Unused&gt;"/>
+#!     <XFORM_PARM PARM_NAME="JSON_DECODE_TEXT_STRINGS" PARM_VALUE="Yes"/>
+#!     <XFORM_PARM PARM_NAME="JSON_EXPOSE_ATTRS_GROUP" PARM_VALUE=""/>
+#!     <XFORM_PARM PARM_NAME="JSON_FEATURE_TYPE_KEY" PARM_VALUE="json_featuretype"/>
+#!     <XFORM_PARM PARM_NAME="JSON_FLATTEN_MODE" PARM_VALUE="ALL_LEVELS"/>
+#!     <XFORM_PARM PARM_NAME="JSON_GEOMETRY_FORMAT" PARM_VALUE="None"/>
+#!     <XFORM_PARM PARM_NAME="JSON_JSON_EXPOSE_FORMAT_ATTRS" PARM_VALUE=""/>
+#!     <XFORM_PARM PARM_NAME="JSON_NETWORK_AUTHENTICATION" PARM_VALUE=""/>
+#!     <XFORM_PARM PARM_NAME="JSON_SAVE_FRAGMENTS" PARM_VALUE="NO"/>
+#!     <XFORM_PARM PARM_NAME="JSON_SCAN_MODE" PARM_VALUE="AUTO"/>
+#!     <XFORM_PARM PARM_NAME="JSON_USE_BASENAME_AS_DEFAULT_FEATURE_TYPE" PARM_VALUE="No"/>
+#!     <XFORM_PARM PARM_NAME="JSON_USE_SEARCH_ENVELOPE" PARM_VALUE="NO"/>
+#!     <XFORM_PARM PARM_NAME="MAX_FEATURES" PARM_VALUE=""/>
+#!     <XFORM_PARM PARM_NAME="MERGE_HANDLING_GROUP" PARM_VALUE=""/>
+#!     <XFORM_PARM PARM_NAME="ORDER_RESULTS" PARM_VALUE="No"/>
+#!     <XFORM_PARM PARM_NAME="OUTPUTPORTS_GROUP" PARM_VALUE=""/>
+#!     <XFORM_PARM PARM_NAME="OUTPUT_ADD_SCHEMA_ATTRIBUTES" PARM_VALUE="NO"/>
+#!     <XFORM_PARM PARM_NAME="OUTPUT_FEATURES_DISPLAY" PARM_VALUE="Schema and Data Features"/>
+#!     <XFORM_PARM PARM_NAME="OUTPUT_FEATURES_GROUP" PARM_VALUE=""/>
+#!     <XFORM_PARM PARM_NAME="OUTPUT_GROUP" PARM_VALUE=""/>
+#!     <XFORM_PARM PARM_NAME="OUTPUT_PORTS_MODE" PARM_VALUE="PORTS_FROM_FTTR"/>
+#!     <XFORM_PARM PARM_NAME="PORTS_FROM_FTTR" PARM_VALUE=""/>
+#!     <XFORM_PARM PARM_NAME="READER_GROUP" PARM_VALUE=""/>
+#!     <XFORM_PARM PARM_NAME="READ_GROUP" PARM_VALUE=""/>
+#!     <XFORM_PARM PARM_NAME="SELECTED_PORTS" PARM_VALUE="&lt;Unused&gt;"/>
+#!     <XFORM_PARM PARM_NAME="SINGLE_PORT" PARM_VALUE="&lt;Unused&gt;"/>
+#!     <XFORM_PARM PARM_NAME="SUPPORTED_SPATIAL_INTERACTIONS" PARM_VALUE=""/>
+#!     <XFORM_PARM PARM_NAME="TRANSFORMER_GROUP" PARM_VALUE=""/>
+#!     <XFORM_PARM PARM_NAME="WHERE" PARM_VALUE="&lt;Unused&gt;"/>
+#!     <XFORM_PARM PARM_NAME="XFORMER_NAME" PARM_VALUE="FeatureReader"/>
+#! </TRANSFORMER>
+#! <TRANSFORMER
+#!   IDENTIFIER="6"
+#!   TYPE="ListExploder"
+#!   VERSION="6"
+#!   POSITION="1994.8106147728142 -587.50587505875058"
+#!   BOUNDING_RECT="1994.8106147728142 -587.50587505875058 436 65"
+#!   ORDER="500000000000005"
+#!   PARMS_EDITED="true"
+#!   ENABLED="true"
+#!   LAST_PARM_EDIT="24624"
+#! >
+#!     <OUTPUT_FEAT NAME="ELEMENTS"/>
+#!     <FEAT_COLLAPSED COLLAPSED="0"/>
+#!     <XFORM_ATTR ATTR_NAME="instances{}.tag" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="instances{}.meta.city" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="instances{}.meta.country" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="instances{}.meta.name" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="instances{}.meta.latitude" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="instances{}.meta.longitude" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="scooters" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="ebikes" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="system" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="id" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="name" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="location.latitude" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="location.longitude" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="location.city" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="location.country" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="href" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="company{}" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="source" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="license.name" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="license.url" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="gbfs_href" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="_element_index" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <OUTPUT_FEAT NAME="&lt;REJECTED&gt;"/>
+#!     <FEAT_COLLAPSED COLLAPSED="1"/>
+#!     <XFORM_ATTR ATTR_NAME="instances{}.tag" IS_USER_CREATED="false" FEAT_INDEX="1" />
+#!     <XFORM_ATTR ATTR_NAME="instances{}.meta.city" IS_USER_CREATED="false" FEAT_INDEX="1" />
+#!     <XFORM_ATTR ATTR_NAME="instances{}.meta.country" IS_USER_CREATED="false" FEAT_INDEX="1" />
+#!     <XFORM_ATTR ATTR_NAME="instances{}.meta.name" IS_USER_CREATED="false" FEAT_INDEX="1" />
+#!     <XFORM_ATTR ATTR_NAME="instances{}.meta.latitude" IS_USER_CREATED="false" FEAT_INDEX="1" />
+#!     <XFORM_ATTR ATTR_NAME="instances{}.meta.longitude" IS_USER_CREATED="false" FEAT_INDEX="1" />
+#!     <XFORM_ATTR ATTR_NAME="scooters" IS_USER_CREATED="false" FEAT_INDEX="1" />
+#!     <XFORM_ATTR ATTR_NAME="ebikes" IS_USER_CREATED="false" FEAT_INDEX="1" />
+#!     <XFORM_ATTR ATTR_NAME="system" IS_USER_CREATED="false" FEAT_INDEX="1" />
+#!     <XFORM_ATTR ATTR_NAME="id" IS_USER_CREATED="false" FEAT_INDEX="1" />
+#!     <XFORM_ATTR ATTR_NAME="name" IS_USER_CREATED="false" FEAT_INDEX="1" />
+#!     <XFORM_ATTR ATTR_NAME="location.latitude" IS_USER_CREATED="false" FEAT_INDEX="1" />
+#!     <XFORM_ATTR ATTR_NAME="location.longitude" IS_USER_CREATED="false" FEAT_INDEX="1" />
+#!     <XFORM_ATTR ATTR_NAME="location.city" IS_USER_CREATED="false" FEAT_INDEX="1" />
+#!     <XFORM_ATTR ATTR_NAME="location.country" IS_USER_CREATED="false" FEAT_INDEX="1" />
+#!     <XFORM_ATTR ATTR_NAME="href" IS_USER_CREATED="false" FEAT_INDEX="1" />
+#!     <XFORM_ATTR ATTR_NAME="company{}" IS_USER_CREATED="false" FEAT_INDEX="1" />
+#!     <XFORM_ATTR ATTR_NAME="source" IS_USER_CREATED="false" FEAT_INDEX="1" />
+#!     <XFORM_ATTR ATTR_NAME="license.name" IS_USER_CREATED="false" FEAT_INDEX="1" />
+#!     <XFORM_ATTR ATTR_NAME="license.url" IS_USER_CREATED="false" FEAT_INDEX="1" />
+#!     <XFORM_ATTR ATTR_NAME="gbfs_href" IS_USER_CREATED="false" FEAT_INDEX="1" />
+#!     <XFORM_ATTR ATTR_NAME="fme_rejection_code" IS_USER_CREATED="false" FEAT_INDEX="1" />
+#!     <XFORM_PARM PARM_NAME="ATTR_ACCUM_GROUP" PARM_VALUE=""/>
+#!     <XFORM_PARM PARM_NAME="ATTR_ACCUM_MODE" PARM_VALUE="Merge List Attributes"/>
+#!     <XFORM_PARM PARM_NAME="ATTR_CONFLICT_RES_LOOKUP" PARM_VALUE="INCOMING_IF_CONFLICT"/>
+#!     <XFORM_PARM PARM_NAME="INCOMING_PREFIX" PARM_VALUE="&lt;Unused&gt;"/>
+#!     <XFORM_PARM PARM_NAME="INDEX_ATTR" PARM_VALUE="_element_index"/>
+#!     <XFORM_PARM PARM_NAME="LIST_ATTR" PARM_VALUE="networks{}"/>
+#!     <XFORM_PARM PARM_NAME="OAN_GROUP" PARM_VALUE=""/>
+#!     <XFORM_PARM PARM_NAME="PARAMETERS_GROUP" PARM_VALUE=""/>
+#!     <XFORM_PARM PARM_NAME="TRANSFORMER_GROUP" PARM_VALUE=""/>
+#!     <XFORM_PARM PARM_NAME="XFORMER_NAME" PARM_VALUE="ListExploder"/>
+#!     <XFORM_PARM PARM_NAME="ATTR_CONFLICT_RES" PARM_IS_LOOKUP="true" PARM_VALUE="Use List Attribute Values"/>
+#! </TRANSFORMER>
+#! </TRANSFORMERS>
+#! <FEAT_LINKS>
+#! <FEAT_LINK
+#!   IDENTIFIER="4"
+#!   SOURCE_NODE="2"
+#!   TARGET_NODE="3"
+#!   SOURCE_PORT_DESC="fo 0 CREATED"
+#!   TARGET_PORT_DESC="fi 0 INITIATOR"
+#!   ENABLED="true"
+#!   EXECUTION_IDX="0"
+#!   HIDDEN="false"
+#!   COLOUR="0.95686274509803926,0.95294117647058818,0.92941176470588238,1"
+#!   PEN_WIDTH="4"
+#!   PEN_STYLE="1"
+#!   LINK_STYLE_NAME="&lt;Default&gt;"
+#!   EXTRA_POINTS=""
+#! />
+#! <FEAT_LINK
+#!   IDENTIFIER="7"
+#!   SOURCE_NODE="3"
+#!   TARGET_NODE="6"
+#!   SOURCE_PORT_DESC="fo 1 JSONFeature"
+#!   TARGET_PORT_DESC="fi 0 "
+#!   ENABLED="true"
+#!   EXECUTION_IDX="0"
+#!   HIDDEN="false"
+#!   COLOUR="0.95686274509803926,0.95294117647058818,0.92941176470588238,1"
+#!   PEN_WIDTH="4"
+#!   PEN_STYLE="1"
+#!   LINK_STYLE_NAME="&lt;Default&gt;"
+#!   EXTRA_POINTS=""
+#! />
+#! </FEAT_LINKS>
+#! <BREAKPOINTS>
+#! </BREAKPOINTS>
+#! <ATTR_LINKS>
+#! </ATTR_LINKS>
+#! <SUBDOCUMENTS>
+#! </SUBDOCUMENTS>
+#! <LOOKUP_TABLES>
+#! </LOOKUP_TABLES>
+#! </WORKSPACE>
+
+FME_PYTHON_VERSION 312
+ARCGIS_COMPATIBILITY ARCGIS_AUTO
+#! START_HEADER
+#! START_WB_HEADER
+READER_TYPE MULTI_READER
+WRITER_TYPE MULTI_WRITER
+WRITER_KEYWORD MULTI_DEST
+MULTI_DEST_DATASET null
+#! END_WB_HEADER
+#! START_WB_HEADER
+#! END_WB_HEADER
+#! END_HEADER
+
+LOG_FILENAME "$(FME_MF_DIR)SchemaMapper.log"
+LOG_APPEND NO
+LOG_TIMINGS YES
+LOG_MAX_FEATURES 200
+LOG_MAX_RECORDED_FEATURES 200
+FME_REPROJECTION_ENGINE FME
+FME_IMPLICIT_CSMAP_REPROJECTION_MODE Auto
+FME_GEOMETRY_HANDLING Enhanced
+FME_STROKE_MAX_DEVIATION 0
+FME_NAMES_ENCODING UTF-8
+FME_BULK_MODE_THRESHOLD 2000
+LAST_SAVE_BUILD "FME 2024.1.2.1 (20240906 - Build 24624 - WIN64)"
+# -------------------------------------------------------------------------
+
+MULTI_READER_CONTINUE_ON_READER_FAILURE No
+
+# -------------------------------------------------------------------------
+
+MACRO WORKSPACE_NAME SchemaMapper
+MACRO FME_VIEWER_APP fmedatainspector
+DEFAULT_MACRO WB_CURRENT_CONTEXT
+# -------------------------------------------------------------------------
+Tcl2 proc Creator_CoordSysRemover {} {   global FME_CoordSys;   set FME_CoordSys {}; }
+MACRO Creator_XML     NOT_ACTIVATED
+MACRO Creator_GEOJSON NOT_ACTIVATED
+INCLUDE [ if { {Geometry Object} == {Geometry Object} } {            puts {MACRO Creator_XML *} } ]
+INCLUDE [ if { {Geometry Object} == {GeoJSON} } {            puts {MACRO Creator_GEOJSON *} } ]
+FACTORY_DEF {$(Creator_XML)} CreationFactory    FACTORY_NAME { Creator_XML_Creator }    CREATE_AT_END { no }    OUTPUT { FEATURE_TYPE _____CREATED______        @Geometry(FROM_ENCODED_STRING,<lt>?xml<space>version=<quote>1.0<quote><space>encoding=<quote>US_ASCII<quote><space>standalone=<quote>no<quote><space>?<gt><lt>geometry<space>dimension=<quote>2<quote><gt><lt>null<solidus><gt><lt><solidus>geometry<gt>) }
+FACTORY_DEF {$(Creator_GEOJSON)} CreationFactory    FACTORY_NAME { Creator_GEOJSON_Creator }    CREATE_AT_END { no }    OUTPUT { FEATURE_TYPE _____CREATED______ 	   @SupplyAttributes(ENCODED,__GeoJSONCreatorTemp__,<Unused>)        @JSONGeometry(FROM_ATTRIBUTE,GEOJSON,__GeoJSONCreatorTemp__, PREFER_ERROR_OVER_REJECTION) 	   @RemoveAttributes(__GeoJSONCreatorTemp__) }
+FACTORY_DEF {*} TeeFactory    FACTORY_NAME { Creator_Cloner }    INPUT FEATURE_TYPE _____CREATED______        @Tcl2(Creator_CoordSysRemover)        @CoordSys()    NUMBER_OF_COPIES { 1 }    COPY_NUMBER_ATTRIBUTE { "_creation_instance" }    OUTPUT { FEATURE_TYPE Creator_CREATED        fme_feature_type Creator         }
+FACTORY_DEF * BranchingFactory   FACTORY_NAME "Creator_CREATED Brancher -1 4"   INPUT FEATURE_TYPE Creator_CREATED   TARGET_FACTORY "$(WB_CURRENT_CONTEXT)_CREATOR_BRANCH_TARGET"   MAXIMUM_COUNT None   OUTPUT PASSED FEATURE_TYPE *
+# -------------------------------------------------------------------------
+FACTORY_DEF * TeeFactory   FACTORY_NAME "$(WB_CURRENT_CONTEXT)_CREATOR_BRANCH_TARGET"   INPUT FEATURE_TYPE *  OUTPUT FEATURE_TYPE *
+# -------------------------------------------------------------------------
+MACRO FeatureReader_OUTPUT_PORTS_ENCODED JSONFeature
+MACRO FeatureReader_DIRECTIVES DECODE_TEXT_STRINGS,Yes,EXPOSE_ATTRS_GROUP,,FEATURE_TYPE_KEY,json_featuretype,FLATTEN_MODE,ALL_LEVELS,GEOMETRY_FORMAT,None,JSON_EXPOSE_FORMAT_ATTRS,,NETWORK_AUTHENTICATION,,SAVE_FRAGMENTS,NO,SCAN_MODE,AUTO,USE_BASENAME_AS_DEFAULT_FEATURE_TYPE,No,USE_SEARCH_ENVELOPE,NO
+# Always provide an INTERACTION, otherwise the factory defaults to ENVELOPE_INTERSECTS
+INCLUDE [if { ( {<Unused>} == {<Unused>} ) || ( {($INTERACT)} == {} ) } {             puts {MACRO FCTQUERY_INTERACTION_LINE FCTQUERY_INTERACTION NONE};          } else {             puts {MACRO FCTQUERY_INTERACTION_LINE FCTQUERY_INTERACTION "<Unused>"};          }         ]
+# Consolidate the attribute merge options to what the factory expects
+DEFAULT_MACRO FeatureReader_COMBINE_ATTRS
+INCLUDE [       if { {RESULT_ONLY} == {MERGE} } {          puts "MACRO FeatureReader_COMBINE_ATTRS <Unused>";       } else {          puts "MACRO FeatureReader_COMBINE_ATTRS RESULT_ONLY";       };    ]
+INCLUDE [    puts {DEFAULT_MACRO FeatureReaderDataset_FeatureReader http:<solidus><solidus>api.citybik.es<solidus>v2<solidus>networks}; ]
+FACTORY_DEF {*} QueryFactory    FACTORY_NAME { FeatureReader }    INPUT  FEATURE_TYPE Creator_CREATED    $(FCTQUERY_INTERACTION_LINE)    COMBINE_ATTRIBUTES  { $(FeatureReader_COMBINE_ATTRS) }    IGNORE_NULLS        { <Unused> }    QUERYFCT_ATTRIBUTE_PREFIX { <Unused> }    COMBINE_GEOMETRY    { RESULT_ONLY }    ENABLE_CACHE        { NO }    QUERYFCT_TABLE_SEPARATOR { SPACE }    READER_TYPE         { JSON  }    READER_DATASET      { "$(FeatureReaderDataset_FeatureReader)" }    QUERYFCT_IDS        { "" }    QUERYFCT_IDS_FORMAT WWJD_PARTS    READER_DIRECTIVES   { METAFILE,JSON }    QUERYFCT_OUTPUT     { "BASED_ON_CONNECTIONS" }    QUERYFCT_ADD_SCHEMA { "NO" }    QUERYFCT_DEDUPE_GEOM YES    CONTINUE_ON_READER_ERROR YES    ORDER_RESULTS { "No" }    QUERYFCT_RESULT_TAGS { $(FeatureReader_OUTPUT_PORTS_ENCODED) }    QUERYFCT_SET_FME_FEATURE_TYPE YES    READER_PARAMS_WWJD     { $(FeatureReader_DIRECTIVES) }    TREAT_READER_PARAM_AMPERSANDS_AS_LITERALS YES    OUTPUT { READER_ERROR FEATURE_TYPE FeatureReader_<REJECTED>           }    OUTPUT JSONFeature FEATURE_TYPE FeatureReader_JSONFeature
+DEFAULT_MACRO _WB_BYPASS_TERMINATION No
+FACTORY_DEF * TeeFactory FACTORY_NAME FeatureReader_<Rejected> INPUT FEATURE_TYPE FeatureReader_<REJECTED>  NO_LOGGING   OUTPUT FAILED FEATURE_TYPE * @Abort(ENCODED, FeatureReader<space>output<space>a<space><lt>Rejected<gt><space>feature.<space><space>To<space>continue<space>translation<space>when<space>features<space>are<space>rejected<comma><space>change<space><apos>Workspace<space>Parameters<apos><space><gt><space>Translation<space><gt><space><apos>Rejected<space>Feature<space>Handling<apos><space>to<space><apos>Continue<space>Translation<apos>)
+# -------------------------------------------------------------------------
+FACTORY_DEF {*} ElementFactory    FACTORY_NAME { ListExploder }    INPUT  FEATURE_TYPE FeatureReader_JSONFeature    LIST_NAME { "networks{}" }    ELEMENT_NUMBER_FIELD { "_element_index" }    CLONE_GEOMETRY    ATTR_ACCUM_MODE { "HANDLE_CONFLICT" }    ATTR_CONFLICT_RES { "INCOMING_IF_CONFLICT" }    INCOMING_PREFIX { "<Unused>" }    OUTPUT { NOLIST FEATURE_TYPE ListExploder_<REJECTED>         @RemoveAttributes(ElementFactory.baseCloned)         fme_rejection_code MISSING_PARAMETER_LIST          }
+DEFAULT_MACRO _WB_BYPASS_TERMINATION No
+FACTORY_DEF * TeeFactory FACTORY_NAME ListExploder_<Rejected> INPUT FEATURE_TYPE ListExploder_<REJECTED>  NO_LOGGING   OUTPUT FAILED FEATURE_TYPE * @Abort(ENCODED, ListExploder<space>output<space>a<space><lt>Rejected<gt><space>feature.<space><space>To<space>continue<space>translation<space>when<space>features<space>are<space>rejected<comma><space>change<space><apos>Workspace<space>Parameters<apos><space><gt><space>Translation<space><gt><space><apos>Rejected<space>Feature<space>Handling<apos><space>to<space><apos>Continue<space>Translation<apos>)
+# -------------------------------------------------------------------------
+
+FACTORY_DEF * RoutingFactory FACTORY_NAME "Destination Feature Type Routing Correlator"   COMMAND_PARM_EVALUATION SINGLE_PASS   INPUT FEATURE_TYPE *   FEATURE_TYPE_ATTRIBUTE __wb_out_feat_type__   OUTPUT ROUTED FEATURE_TYPE *    OUTPUT NOT_ROUTED FEATURE_TYPE __nuke_me__ @Tcl2("FME_StatMessage 818059 [FME_GetAttribute fme_template_feature_type] 818060 818061 fme_warn")
+# -------------------------------------------------------------------------
+
+FACTORY_DEF * TeeFactory   FACTORY_NAME "Final Output Nuker"   INPUT FEATURE_TYPE __nuke_me__
+
