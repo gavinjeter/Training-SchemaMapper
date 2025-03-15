@@ -4,7 +4,7 @@
 #        "C:\Program Files\FME\FME2024-1-2-1\fme.exe" C:\Users\Gavin\Documents\FME\Repositories\Training-SchemaMapper\SchemaMapper.fmw
 #          --FME_LAUNCH_VIEWER_APP "YES"
 #    
-#!   A0_PREVIEW_IMAGE="data:image/png;base64,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"
+#!   A0_PREVIEW_IMAGE="data:image/png;base64,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"
 #!   ARCGIS_COMPATIBILITY="ARCGIS_AUTO"
 #!   ATTR_TYPE_ENCODING="SDF"
 #!   BEGIN_PYTHON=""
@@ -13,15 +13,15 @@
 #!   DESCRIPTION=""
 #!   DESTINATION="NONE"
 #!   DESTINATION_ROUTING_FILE=""
-#!   DOC_EXTENTS="1808.69 250.001"
+#!   DOC_EXTENTS="3159.02 380.471"
 #!   DOC_TOP_LEFT="235.434 -326.416"
 #!   END_PYTHON=""
 #!   END_TCL=""
 #!   EXPLICIT_BOOKMARK_ORDER="false"
 #!   FME_BUILD_NUM="24624"
 #!   FME_BULK_MODE_THRESHOLD="2000"
-#!   FME_DOCUMENT_GUID="cac380c2-eb36-4345-8e36-21b6d96d7cec"
-#!   FME_DOCUMENT_PRIORGUID="fc2d75d1-00ed-4d04-9f65-ae8d62deb830,ce2f585c-a961-4aa7-b61f-b9eac8c8841f"
+#!   FME_DOCUMENT_GUID="34106b9c-02da-4778-b898-a9fd1ac12611"
+#!   FME_DOCUMENT_PRIORGUID="fc2d75d1-00ed-4d04-9f65-ae8d62deb830,ce2f585c-a961-4aa7-b61f-b9eac8c8841f,cac380c2-eb36-4345-8e36-21b6d96d7cec"
 #!   FME_GEOMETRY_HANDLING="Enhanced"
 #!   FME_IMPLICIT_CSMAP_REPROJECTION_MODE="Auto"
 #!   FME_NAMES_ENCODING="UTF-8"
@@ -31,7 +31,7 @@
 #!   HISTORY=""
 #!   IGNORE_READER_FAILURE="No"
 #!   LAST_SAVE_BUILD="FME(R) 2024.1.2.1 (20240906 - Build 24624 - WIN64)"
-#!   LAST_SAVE_DATE="2025-03-16T08:20:29"
+#!   LAST_SAVE_DATE="2025-03-16T09:06:56"
 #!   LOG_FILE=""
 #!   LOG_MAX_RECORDED_FEATURES="200"
 #!   MARKDOWN_DESCRIPTION=""
@@ -50,7 +50,7 @@
 #!   TITLE=""
 #!   USAGE=""
 #!   USE_MARKDOWN=""
-#!   VIEW_POSITION="-893.564 278.323"
+#!   VIEW_POSITION="-410.16 146.486"
 #!   WARN_INVALID_XFORM_PARAM="Yes"
 #!   WORKSPACE_VERSION="1"
 #!   ZOOM_SCALE="64"
@@ -106,6 +106,38 @@
 #!   SIZE_POLICY="10"
 #!   ANCHORED_NODE="6"
 #! />
+#! <COMMENT
+#!   IDENTIFIER="14"
+#!   COMMENT_VALUE="&lt;!DOCTYPE HTML PUBLIC &quot;-//W3C//DTD HTML 4.0//EN&quot; &quot;http://www.w3.org/TR/REC-html40/strict.dtd&quot;&gt;&#10;&lt;html&gt;&lt;head&gt;&lt;meta name=&quot;qrichtext&quot; content=&quot;1&quot; /&gt;&lt;meta charset=&quot;utf-8&quot; /&gt;&lt;style type=&quot;text/css&quot;&gt;&#10;p, li { white-space: pre-wrap; }&#10;hr { height: 1px; border-width: 0; }&#10;li.unchecked::marker { content: &quot;\2610&quot;; }&#10;li.checked::marker { content: &quot;\2612&quot;; }&#10;&lt;/style&gt;&lt;/head&gt;&lt;body style=&quot; font-family:&apos;Segoe UI&apos;; font-size:9pt; font-weight:400; font-style:normal;&quot;&gt;&#10;&lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;SchemaMapper_DataMapping.xlsx&lt;/p&gt;&#10;&lt;p style=&quot;-qt-paragraph-type:empty; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;br /&gt;&lt;/p&gt;&#10;&lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;Map features to category using SchemaMapper&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;"
+#!   POSITION="2173.4244351380717 54.055647078209702"
+#!   TOP_LEFT="2173.4244351380717 54.055647078209702"
+#!   BOTTOM_RIGHT="2827.1414098078185 -200.94660294429053"
+#!   BOUNDING_RECT="2173.4244351380717 54.055647078209702 653.71697466974672 255.00225002250022"
+#!   ORDER="500000000000017"
+#!   FOLLOW_ANCHOR="true"
+#!   INFO_NODE="false"
+#!   CUSTOM_USER_COLOR="false"
+#!   UUID="{0fcf9449-5fa0-42a6-939f-90acd02a8d12}"
+#!   COLOUR="0.59999999999999998,0.47058823529411764,0,0.90196078431372551"
+#!   SIZE_POLICY="10"
+#!   ANCHORED_NODE="10"
+#! />
+#! <COMMENT
+#!   IDENTIFIER="15"
+#!   COMMENT_VALUE="&lt;!DOCTYPE HTML PUBLIC &quot;-//W3C//DTD HTML 4.0//EN&quot; &quot;http://www.w3.org/TR/REC-html40/strict.dtd&quot;&gt;&#10;&lt;html&gt;&lt;head&gt;&lt;meta name=&quot;qrichtext&quot; content=&quot;1&quot; /&gt;&lt;meta charset=&quot;utf-8&quot; /&gt;&lt;style type=&quot;text/css&quot;&gt;&#10;p, li { white-space: pre-wrap; }&#10;hr { height: 1px; border-width: 0; }&#10;li.unchecked::marker { content: &quot;\2610&quot;; }&#10;li.checked::marker { content: &quot;\2612&quot;; }&#10;&lt;/style&gt;&lt;/head&gt;&lt;body style=&quot; font-family:&apos;Segoe UI&apos;; font-size:9pt; font-weight:400; font-style:normal;&quot;&gt;&#10;&lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;Expose Category field&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;"
+#!   POSITION="2958.4503628973498 -126.41490762733736"
+#!   TOP_LEFT="2958.4503628973498 -126.41490762733736"
+#!   BOTTOM_RIGHT="3394.4405509242301 -127.41490762733736"
+#!   BOUNDING_RECT="2958.4503628973498 -126.41490762733736 435.99018802688028 1"
+#!   ORDER="500000000000018"
+#!   FOLLOW_ANCHOR="true"
+#!   INFO_NODE="false"
+#!   CUSTOM_USER_COLOR="false"
+#!   UUID="{1e90aee6-ef3a-4945-b5b1-e3f91cbc606e}"
+#!   COLOUR="0.59999999999999998,0.47058823529411764,0,0.90196078431372551"
+#!   SIZE_POLICY="10"
+#!   ANCHORED_NODE="12"
+#! />
 #! </COMMENTS>
 #! <CONSTANTS>
 #! </CONSTANTS>
@@ -156,7 +188,7 @@
 #!     <XFORM_ATTR ATTR_NAME="value" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_PARM PARM_NAME="ATTRIBUTE_GRP" PARM_VALUE=""/>
 #!     <XFORM_PARM PARM_NAME="ATTRIBUTE_HANDLING" PARM_VALUE=""/>
-#!     <XFORM_PARM PARM_NAME="ATTR_TABLE" PARM_VALUE="&quot;&quot; active SET_TO &quot;FME_CONDITIONAL:DEFAULT_VALUE&apos;inactive&apos;BOOL_OP;OR;COMPOSITE_TEST;1;CASE_INSENSITIVE_TEST &lt;at&gt;Evaluate&lt;openparen&gt;&lt;at&gt;Value&lt;openparen&gt;value&lt;closeparen&gt;&lt;solidus&gt;2&lt;closeparen&gt; ENDS_WITH .5&apos;active&apos;FME_NUM_CONDITIONS2___&quot; varchar&lt;openparen&gt;200&lt;closeparen&gt;  status SET_TO &quot;FME_CONDITIONAL:DEFAULT_VALUE&apos;complete&apos;BOOL_OP;OR;COMPOSITE_TEST;1;CASE_INSENSITIVE_TEST &lt;at&gt;Evaluate&lt;openparen&gt;&lt;at&gt;Value&lt;openparen&gt;value&lt;closeparen&gt;&lt;solidus&gt;3&lt;closeparen&gt; CONTAINS .33&apos;incomplete&apos;BOOL_OP;OR;COMPOSITE_TEST;1;CASE_INSENSITIVE_TEST &lt;at&gt;Evaluate&lt;openparen&gt;&lt;at&gt;Value&lt;openparen&gt;value&lt;closeparen&gt;&lt;solidus&gt;3&lt;closeparen&gt; CONTAINS .66&apos;repair&apos;FME_NUM_CONDITIONS3___&quot; varchar&lt;openparen&gt;200&lt;closeparen&gt;  shape SET_TO &quot;FME_CONDITIONAL:DEFAULT_VALUE&apos;star&apos;BOOL_OP;OR;COMPOSITE_TEST;1;CASE_INSENSITIVE_TEST &lt;at&gt;Evaluate&lt;openparen&gt;&lt;at&gt;Value&lt;openparen&gt;value&lt;closeparen&gt;&lt;solidus&gt;4&lt;closeparen&gt; ENDS_WITH .25&apos;square&apos;BOOL_OP;OR;COMPOSITE_TEST;1;CASE_INSENSITIVE_TEST &lt;at&gt;Evaluate&lt;openparen&gt;&lt;at&gt;Value&lt;openparen&gt;value&lt;closeparen&gt;&lt;solidus&gt;4&lt;closeparen&gt; ENDS_WITH .5&apos;circle&apos;BOOL_OP;OR;COMPOSITE_TEST;1;CASE_INSENSITIVE_TEST &lt;at&gt;Evaluate&lt;openparen&gt;&lt;at&gt;Value&lt;openparen&gt;value&lt;closeparen&gt;&lt;solidus&gt;4&lt;closeparen&gt; ENDS_WITH .75&apos;triangle&apos;FME_NUM_CONDITIONS4___&quot; varchar&lt;openparen&gt;200&lt;closeparen&gt;  color SET_TO &quot;FME_CONDITIONAL:DEFAULT_VALUE&apos;yellow&apos;BOOL_OP;OR;COMPOSITE_TEST;1;CASE_INSENSITIVE_TEST &lt;at&gt;Evaluate&lt;openparen&gt;&lt;at&gt;Value&lt;openparen&gt;value&lt;closeparen&gt;&lt;solidus&gt;5&lt;closeparen&gt; ENDS_WITH .2&apos;black&apos;BOOL_OP;OR;COMPOSITE_TEST;1;CASE_INSENSITIVE_TEST &lt;at&gt;Evaluate&lt;openparen&gt;&lt;at&gt;Value&lt;openparen&gt;value&lt;closeparen&gt;&lt;solidus&gt;5&lt;closeparen&gt; ENDS_WITH .4&apos;blue&apos;BOOL_OP;OR;COMPOSITE_TEST;1;CASE_INSENSITIVE_TEST &lt;at&gt;Evaluate&lt;openparen&gt;&lt;at&gt;Value&lt;openparen&gt;value&lt;closeparen&gt;&lt;solidus&gt;5&lt;closeparen&gt; ENDS_WITH .6&apos;green&apos;BOOL_OP;OR;COMPOSITE_TEST;1;CASE_INSENSITIVE_TEST &lt;at&gt;Evaluate&lt;openparen&gt;&lt;at&gt;Value&lt;openparen&gt;value&lt;closeparen&gt;&lt;solidus&gt;5&lt;closeparen&gt; ENDS_WITH .8&apos;red&apos;FME_NUM_CONDITIONS5___&quot; varchar&lt;openparen&gt;200&lt;closeparen&gt;"/>
+#!     <XFORM_PARM PARM_NAME="ATTR_TABLE" PARM_VALUE="&quot;&quot; active SET_TO &quot;FME_CONDITIONAL:DEFAULT_VALUE&apos;active&apos;BOOL_OP;OR;COMPOSITE_TEST;1 OR 2;CASE_INSENSITIVE_TEST &lt;at&gt;Evaluate&lt;openparen&gt;&lt;at&gt;Value&lt;openparen&gt;value&lt;closeparen&gt;&lt;solidus&gt;2&lt;closeparen&gt; ENDS_WITH 0.5;CASE_INSENSITIVE_TEST &lt;at&gt;Evaluate&lt;openparen&gt;&lt;at&gt;Value&lt;openparen&gt;value&lt;closeparen&gt;&lt;solidus&gt;2&lt;closeparen&gt; ENDS_WITH 5.5&apos;inactive&apos;FME_NUM_CONDITIONS2___&quot; varchar&lt;openparen&gt;200&lt;closeparen&gt;  status SET_TO &quot;FME_CONDITIONAL:DEFAULT_VALUE&apos;complete&apos;BOOL_OP;OR;COMPOSITE_TEST;1;CASE_INSENSITIVE_TEST &lt;at&gt;Evaluate&lt;openparen&gt;&lt;at&gt;Value&lt;openparen&gt;value&lt;closeparen&gt;&lt;solidus&gt;3&lt;closeparen&gt; CONTAINS .33&apos;incomplete&apos;BOOL_OP;OR;COMPOSITE_TEST;1;CASE_INSENSITIVE_TEST &lt;at&gt;Evaluate&lt;openparen&gt;&lt;at&gt;Value&lt;openparen&gt;value&lt;closeparen&gt;&lt;solidus&gt;3&lt;closeparen&gt; CONTAINS .66&apos;repair&apos;FME_NUM_CONDITIONS3___&quot; varchar&lt;openparen&gt;200&lt;closeparen&gt;  shape SET_TO &quot;FME_CONDITIONAL:DEFAULT_VALUE&apos;star&apos;BOOL_OP;OR;COMPOSITE_TEST;1;CASE_INSENSITIVE_TEST &lt;at&gt;Evaluate&lt;openparen&gt;&lt;at&gt;Value&lt;openparen&gt;value&lt;closeparen&gt;&lt;solidus&gt;4&lt;closeparen&gt; ENDS_WITH .25&apos;square&apos;BOOL_OP;OR;COMPOSITE_TEST;1;CASE_INSENSITIVE_TEST &lt;at&gt;Evaluate&lt;openparen&gt;&lt;at&gt;Value&lt;openparen&gt;value&lt;closeparen&gt;&lt;solidus&gt;4&lt;closeparen&gt; ENDS_WITH .5&apos;circle&apos;BOOL_OP;OR;COMPOSITE_TEST;1;CASE_INSENSITIVE_TEST &lt;at&gt;Evaluate&lt;openparen&gt;&lt;at&gt;Value&lt;openparen&gt;value&lt;closeparen&gt;&lt;solidus&gt;4&lt;closeparen&gt; ENDS_WITH .75&apos;triangle&apos;FME_NUM_CONDITIONS4___&quot; varchar&lt;openparen&gt;200&lt;closeparen&gt;  color SET_TO &quot;FME_CONDITIONAL:DEFAULT_VALUE&apos;yellow&apos;BOOL_OP;OR;COMPOSITE_TEST;1;CASE_INSENSITIVE_TEST &lt;at&gt;Evaluate&lt;openparen&gt;&lt;at&gt;Value&lt;openparen&gt;value&lt;closeparen&gt;&lt;solidus&gt;5&lt;closeparen&gt; ENDS_WITH .2&apos;black&apos;BOOL_OP;OR;COMPOSITE_TEST;1;CASE_INSENSITIVE_TEST &lt;at&gt;Evaluate&lt;openparen&gt;&lt;at&gt;Value&lt;openparen&gt;value&lt;closeparen&gt;&lt;solidus&gt;5&lt;closeparen&gt; ENDS_WITH .4&apos;blue&apos;BOOL_OP;OR;COMPOSITE_TEST;1;CASE_INSENSITIVE_TEST &lt;at&gt;Evaluate&lt;openparen&gt;&lt;at&gt;Value&lt;openparen&gt;value&lt;closeparen&gt;&lt;solidus&gt;5&lt;closeparen&gt; ENDS_WITH .6&apos;green&apos;BOOL_OP;OR;COMPOSITE_TEST;1;CASE_INSENSITIVE_TEST &lt;at&gt;Evaluate&lt;openparen&gt;&lt;at&gt;Value&lt;openparen&gt;value&lt;closeparen&gt;&lt;solidus&gt;5&lt;closeparen&gt; ENDS_WITH .8&apos;red&apos;FME_NUM_CONDITIONS5___&quot; varchar&lt;openparen&gt;200&lt;closeparen&gt;"/>
 #!     <XFORM_PARM PARM_NAME="MULTI_FEATURE_MODE" PARM_VALUE="NO"/>
 #!     <XFORM_PARM PARM_NAME="NULL_ATTR_MODE" PARM_VALUE="NO_OP"/>
 #!     <XFORM_PARM PARM_NAME="NULL_ATTR_VALUE" PARM_VALUE="&lt;Unused&gt;"/>
@@ -190,6 +222,106 @@
 #!     <XFORM_PARM PARM_NAME="TRANSFORMER_GROUP" PARM_VALUE=""/>
 #!     <XFORM_PARM PARM_NAME="XFORMER_NAME" PARM_VALUE="RandomNumberGenerator"/>
 #! </TRANSFORMER>
+#! <TRANSFORMER
+#!   IDENTIFIER="10"
+#!   TYPE="SchemaMapper"
+#!   VERSION="3"
+#!   POSITION="2266.1988003817241 -261.41565763483743"
+#!   BOUNDING_RECT="2266.1988003817241 -261.41565763483743 436 65"
+#!   ORDER="500000000000015"
+#!   PARMS_EDITED="true"
+#!   ENABLED="true"
+#!   LAST_PARM_EDIT="24624"
+#! >
+#!     <OUTPUT_FEAT NAME="MAPPED"/>
+#!     <FEAT_COLLAPSED COLLAPSED="0"/>
+#!     <XFORM_ATTR ATTR_NAME="active" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="status" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="shape" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="color" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="value" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="_schemamapper_row_ids" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <OUTPUT_FEAT NAME="UNMAPPED"/>
+#!     <FEAT_COLLAPSED COLLAPSED="1"/>
+#!     <XFORM_ATTR ATTR_NAME="active" IS_USER_CREATED="false" FEAT_INDEX="1" />
+#!     <XFORM_ATTR ATTR_NAME="status" IS_USER_CREATED="false" FEAT_INDEX="1" />
+#!     <XFORM_ATTR ATTR_NAME="shape" IS_USER_CREATED="false" FEAT_INDEX="1" />
+#!     <XFORM_ATTR ATTR_NAME="color" IS_USER_CREATED="false" FEAT_INDEX="1" />
+#!     <XFORM_ATTR ATTR_NAME="value" IS_USER_CREATED="false" FEAT_INDEX="1" />
+#!     <XFORM_PARM PARM_NAME="ADVANCED_GROUP" PARM_VALUE=""/>
+#!     <XFORM_PARM PARM_NAME="DATASET" PARM_VALUE="$(FME_MF_DIR_USERTYPED)SchemaMapper_DataMapping.xlsx"/>
+#!     <XFORM_PARM PARM_NAME="DYNGROUP_0" PARM_VALUE=""/>
+#!     <XFORM_PARM PARM_NAME="FEATURE_GROUP" PARM_VALUE=""/>
+#!     <XFORM_PARM PARM_NAME="FORMAT" PARM_VALUE="XLSXR"/>
+#!     <XFORM_PARM PARM_NAME="FORMAT_PARAMS" PARM_VALUE="XLSXR_TABLELIST,&quot;IGNORE TEXT&quot;,XLSXR&lt;space&gt;,XLSXR_SCHEMA,&quot;OPTIONAL STRING&quot;,XLSXR&lt;space&gt;To&lt;space&gt;be&lt;space&gt;populated,XLSXR_CONFIGURATION_DATASET,&quot;IGNORE TEXT&quot;,XLSXR&lt;space&gt;,XLSXR_EXCEL_COL_NAMES,&quot;IGNORE TEXT&quot;,XLSXR&lt;space&gt;,XLSXR_FORCE_DATETIME,&quot;IGNORE TEXT&quot;,XLSXR&lt;space&gt;,XLSXR_USE_CUSTOM_SCHEMA,&quot;OPTIONAL RADIO_GROUP 2%Automatic,NO%Manual,YES&quot;,XLSXR&lt;space&gt;Attribute&lt;space&gt;Definition,XLSXR_ADVANCED,&quot;OPTIONAL DISCLOSUREGROUP APPLY_FILTERS%SCAN_MAX_FEATURES%TRIM_ATTR_NAME_WHITESPACE%TRIM_ATTR_NAME_CHARACTERS%READ_BLANK_AS%EXPAND_MERGED_CELLS%READ_RASTER_MODE%EXPANDED_DATES_SCANNING%ADDITIONAL_DATETIME_FORMATS%READ_FORM_CONTROLS%SCAN_FOR_GEOMETRIC_TYPES&quot;,XLSXR&lt;space&gt;Advanced,XLSXR_APPLY_FILTERS,&quot;OPTIONAL CHECKBOX Yes%No&quot;,XLSXR&lt;space&gt;Apply&lt;space&gt;Filter&lt;openparen&gt;s&lt;closeparen&gt;:,XLSXR_SCAN_MAX_FEATURES,&quot;OPTIONAL RANGE_SLIDER 0%MAX%0&quot;,XLSXR&lt;space&gt;Maximum&lt;space&gt;Rows&lt;space&gt;to&lt;space&gt;Scan:,XLSXR_TRIM_ATTR_NAME_WHITESPACE,&quot;OPTIONAL CHECKBOX Yes%No&quot;,XLSXR&lt;space&gt;Trim&lt;space&gt;Whitespace&lt;space&gt;From&lt;space&gt;Attribute&lt;space&gt;Names:,XLSXR_TRIM_ATTR_NAME_CHARACTERS,&quot;OPTIONAL TEXT_EDIT_ENCODED FME_INCLUDEBROWSE%NO&quot;,XLSXR&lt;space&gt;Trim&lt;space&gt;Characters&lt;space&gt;from&lt;space&gt;Attribute&lt;space&gt;Names:,XLSXR_READ_BLANK_AS,&quot;OPTIONAL CHOICE Missing%Null&quot;,XLSXR&lt;space&gt;Read&lt;space&gt;Blank&lt;space&gt;Cells&lt;space&gt;As:,XLSXR_EXPAND_MERGED_CELLS,&quot;OPTIONAL CHECKBOX Yes%No&quot;,XLSXR&lt;space&gt;Expand&lt;space&gt;Merged&lt;space&gt;Cells:,XLSXR_READ_RASTER_MODE,&quot;OPTIONAL LOOKUP_CHOICE None%Attribute%Geometry&quot;,XLSXR&lt;space&gt;Read&lt;space&gt;Embedded&lt;space&gt;Images&lt;space&gt;As:,XLSXR_EXPANDED_DATES_SCANNING,&quot;OPTIONAL ACTIVECHECK Yes%No,ADDITIONAL_DATETIME_FORMATS&quot;,XLSXR&lt;space&gt;Expanded&lt;space&gt;Scan&lt;space&gt;for&lt;space&gt;Date&lt;solidus&gt;Time&lt;space&gt;Values:,XLSXR_READ_FORM_CONTROLS,&quot;OPTIONAL CHECKBOX CELL_VALUE%NONE&quot;,XLSXR&lt;space&gt;Read&lt;space&gt;Form&lt;space&gt;Control&lt;space&gt;as&lt;space&gt;Cell&lt;space&gt;Values:,XLSXR_SCAN_FOR_GEOMETRIC_TYPES,&quot;OPTIONAL CHECKBOX Yes%No&quot;,XLSXR&lt;space&gt;Scan&lt;space&gt;For&lt;space&gt;Geometric&lt;space&gt;Types:,XLSXR_EXPOSE_ATTRS_GROUP,&quot;OPTIONAL DISCLOSUREGROUP XLSXR_EXPOSE_FORMAT_ATTRS&quot;,XLSXR&lt;space&gt;Schema&lt;space&gt;Attributes,XLSXR_XLSXR_EXPOSE_FORMAT_ATTRS,&quot;IGNORE TEXT&quot;,XLSXR&lt;space&gt;Additional&lt;space&gt;Attributes&lt;space&gt;to&lt;space&gt;Expose:,XLSXR_QUERY_FEATURE_TYPES_FOR_MERGE_FILTERS,&quot;IGNORE TEXT&quot;,XLSXR&lt;space&gt;,XLSXR_CASE_SENSITIVE_FEATURE_TYPES,&quot;IGNORE TEXT&quot;,XLSXR&lt;space&gt;,XLSXR_ALLOW_DOLLAR_SIGNS,&quot;IGNORE TEXT&quot;,XLSXR&lt;space&gt;,XLSXR_CREATE_FEATURE_TABLES_FROM_DATA,&quot;IGNORE TEXT&quot;,XLSXR&lt;space&gt;,XLSXR_STRIP_SHEETNAME_SPACES,&quot;IGNORE TEXT&quot;,XLSXR&lt;space&gt;,XLSXR_SCHEMA_HANDLING_REVISION,&quot;IGNORE TEXT&quot;,XLSXR&lt;space&gt;,XLSXR_SKIP_EMPTY_ROWS,&quot;IGNORE TEXT&quot;,XLSXR&lt;space&gt;,XLSXR_REPLACE_ONLY_NEWLINES_CARRIAGE_RETURNS,&quot;IGNORE TEXT&quot;,XLSXR&lt;space&gt;,XLSXR_NETWORK_AUTHENTICATION,&quot;OPTIONAL AUTHENTICATOR CONTAINER%ACTIVEDISCLOSUREGROUP%CONTAINER_TITLE%Use Network Authentication%PROMPT_TYPE%NETWORK&quot;,XLSXR&lt;space&gt;Use&lt;space&gt;Network&lt;space&gt;Authentication"/>
+#!     <XFORM_PARM PARM_NAME="IDXDESTATTR" PARM_VALUE="fme_feature_type"/>
+#!     <XFORM_PARM PARM_NAME="IDXDESTCOL" PARM_VALUE="&quot;&quot;"/>
+#!     <XFORM_PARM PARM_NAME="IDXSOURCEATTR" PARM_VALUE="fme_feature_type"/>
+#!     <XFORM_PARM PARM_NAME="IDXSOURCECOL" PARM_VALUE="&quot;&quot;"/>
+#!     <XFORM_PARM PARM_NAME="MAP_ATTRS" PARM_VALUE="&quot;&quot;&quot;&quot;&quot;&quot; output_field output_value"/>
+#!     <XFORM_PARM PARM_NAME="MAP_ATTR_GROUP" PARM_VALUE=""/>
+#!     <XFORM_PARM PARM_NAME="MATCH_ATTRS" PARM_VALUE="input_field_1 input_value_1$(FME_ASC_16) input_field_2 input_value_2$(FME_ASC_16) input_field_3 input_value_3$(FME_ASC_16) input_field_4 input_value_4$(FME_ASC_16)"/>
+#!     <XFORM_PARM PARM_NAME="NEW_ATTR_GROUP" PARM_VALUE=""/>
+#!     <XFORM_PARM PARM_NAME="PRESERVE_FEATURE_ORDER" PARM_VALUE="PER_OUTPUT_PORT"/>
+#!     <XFORM_PARM PARM_NAME="READER_GROUP" PARM_VALUE=""/>
+#!     <XFORM_PARM PARM_NAME="ROW_ID_ATTR" PARM_VALUE="_schemamapper_row_ids"/>
+#!     <XFORM_PARM PARM_NAME="SCHEMA_GROUP" PARM_VALUE=""/>
+#!     <XFORM_PARM PARM_NAME="TABLE" PARM_VALUE="Sheet1"/>
+#!     <XFORM_PARM PARM_NAME="XFORMER_NAME" PARM_VALUE="SchemaMapper"/>
+#!     <XFORM_PARM PARM_NAME="XLSXR_ADVANCED" PARM_VALUE=""/>
+#!     <XFORM_PARM PARM_NAME="XLSXR_ALLOW_DOLLAR_SIGNS" PARM_VALUE="YES"/>
+#!     <XFORM_PARM PARM_NAME="XLSXR_APPLY_FILTERS" PARM_VALUE="No"/>
+#!     <XFORM_PARM PARM_NAME="XLSXR_CASE_SENSITIVE_FEATURE_TYPES" PARM_VALUE="YES"/>
+#!     <XFORM_PARM PARM_NAME="XLSXR_CONFIGURATION_DATASET" PARM_VALUE="$(FME_MF_DIR)SchemaMapper_DataMapping.xlsx"/>
+#!     <XFORM_PARM PARM_NAME="XLSXR_CREATE_FEATURE_TABLES_FROM_DATA" PARM_VALUE="Yes"/>
+#!     <XFORM_PARM PARM_NAME="XLSXR_EXCEL_COL_NAMES" PARM_VALUE="YES"/>
+#!     <XFORM_PARM PARM_NAME="XLSXR_EXPANDED_DATES_SCANNING" PARM_VALUE="No"/>
+#!     <XFORM_PARM PARM_NAME="XLSXR_EXPAND_MERGED_CELLS" PARM_VALUE="Yes"/>
+#!     <XFORM_PARM PARM_NAME="XLSXR_EXPOSE_ATTRS_GROUP" PARM_VALUE=""/>
+#!     <XFORM_PARM PARM_NAME="XLSXR_FORCE_DATETIME" PARM_VALUE="NO"/>
+#!     <XFORM_PARM PARM_NAME="XLSXR_NETWORK_AUTHENTICATION" PARM_VALUE=""/>
+#!     <XFORM_PARM PARM_NAME="XLSXR_QUERY_FEATURE_TYPES_FOR_MERGE_FILTERS" PARM_VALUE="Yes"/>
+#!     <XFORM_PARM PARM_NAME="XLSXR_READ_BLANK_AS" PARM_VALUE="Null"/>
+#!     <XFORM_PARM PARM_NAME="XLSXR_READ_FORM_CONTROLS" PARM_VALUE="NONE"/>
+#!     <XFORM_PARM PARM_NAME="XLSXR_READ_RASTER_MODE" PARM_VALUE="None"/>
+#!     <XFORM_PARM PARM_NAME="XLSXR_REPLACE_ONLY_NEWLINES_CARRIAGE_RETURNS" PARM_VALUE="YES"/>
+#!     <XFORM_PARM PARM_NAME="XLSXR_SCAN_FOR_GEOMETRIC_TYPES" PARM_VALUE="Yes"/>
+#!     <XFORM_PARM PARM_NAME="XLSXR_SCAN_MAX_FEATURES" PARM_VALUE="1000"/>
+#!     <XFORM_PARM PARM_NAME="XLSXR_SCHEMA" PARM_VALUE="Sheet1,0&lt;comma&gt;input_field_1&lt;comma&gt;char&lt;comma&gt;6&lt;comma&gt;&lt;comma&gt;&lt;comma&gt;1&lt;comma&gt;input_value_1&lt;comma&gt;char&lt;comma&gt;6&lt;comma&gt;&lt;comma&gt;&lt;comma&gt;2&lt;comma&gt;input_field_2&lt;comma&gt;char&lt;comma&gt;6&lt;comma&gt;&lt;comma&gt;&lt;comma&gt;3&lt;comma&gt;input_value_2&lt;comma&gt;char&lt;comma&gt;8&lt;comma&gt;&lt;comma&gt;&lt;comma&gt;4&lt;comma&gt;input_field_3&lt;comma&gt;char&lt;comma&gt;5&lt;comma&gt;&lt;comma&gt;&lt;comma&gt;5&lt;comma&gt;input_value_3&lt;comma&gt;char&lt;comma&gt;4&lt;comma&gt;&lt;comma&gt;&lt;comma&gt;6&lt;comma&gt;input_field_4&lt;comma&gt;char&lt;comma&gt;5&lt;comma&gt;&lt;comma&gt;&lt;comma&gt;7&lt;comma&gt;input_value_4&lt;comma&gt;char&lt;comma&gt;6&lt;comma&gt;&lt;comma&gt;&lt;comma&gt;8&lt;comma&gt;output_field&lt;comma&gt;char&lt;comma&gt;8&lt;comma&gt;&lt;comma&gt;&lt;comma&gt;9&lt;comma&gt;output_value&lt;comma&gt;char&lt;comma&gt;13&lt;comma&gt;&lt;comma&gt;,1&lt;comma&gt;&lt;comma&gt;&lt;comma&gt;,NO&lt;comma&gt;NO&lt;comma&gt;1&lt;comma&gt;C:&lt;lt&gt;backslash&lt;gt&gt;Users&lt;lt&gt;backslash&lt;gt&gt;Gavin&lt;lt&gt;backslash&lt;gt&gt;Documents&lt;lt&gt;backslash&lt;gt&gt;FME&lt;lt&gt;backslash&lt;gt&gt;Repositories&lt;lt&gt;backslash&lt;gt&gt;Training-SchemaMapper&lt;lt&gt;backslash&lt;gt&gt;SchemaMapper_DataMapping.xlsx&lt;comma&gt;&lt;quote&gt;0&lt;comma&gt;0&lt;comma&gt;9&lt;comma&gt;8&lt;quote&gt;&lt;comma&gt;&lt;comma&gt;NO&lt;comma&gt;NO"/>
+#!     <XFORM_PARM PARM_NAME="XLSXR_SCHEMA_HANDLING_REVISION" PARM_VALUE="2"/>
+#!     <XFORM_PARM PARM_NAME="XLSXR_SKIP_EMPTY_ROWS" PARM_VALUE="YES"/>
+#!     <XFORM_PARM PARM_NAME="XLSXR_STRIP_SHEETNAME_SPACES" PARM_VALUE="YES"/>
+#!     <XFORM_PARM PARM_NAME="XLSXR_TABLELIST" PARM_VALUE="Sheet1"/>
+#!     <XFORM_PARM PARM_NAME="XLSXR_TRIM_ATTR_NAME_CHARACTERS" PARM_VALUE=""/>
+#!     <XFORM_PARM PARM_NAME="XLSXR_TRIM_ATTR_NAME_WHITESPACE" PARM_VALUE="Yes"/>
+#!     <XFORM_PARM PARM_NAME="XLSXR_USE_CUSTOM_SCHEMA" PARM_VALUE="NO"/>
+#!     <XFORM_PARM PARM_NAME="XLSXR_XLSXR_EXPOSE_FORMAT_ATTRS" PARM_VALUE=""/>
+#! </TRANSFORMER>
+#! <TRANSFORMER
+#!   IDENTIFIER="12"
+#!   TYPE="AttributeExposer"
+#!   VERSION="2"
+#!   POSITION="2958.4503628973498 -261.41565763483743"
+#!   BOUNDING_RECT="2958.4503628973498 -261.41565763483743 436 65"
+#!   ORDER="500000000000016"
+#!   PARMS_EDITED="true"
+#!   ENABLED="true"
+#!   LAST_PARM_EDIT="24624"
+#! >
+#!     <OUTPUT_FEAT NAME="OUTPUT"/>
+#!     <FEAT_COLLAPSED COLLAPSED="0"/>
+#!     <XFORM_ATTR ATTR_NAME="active" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="status" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="shape" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="color" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="value" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="_schemamapper_row_ids" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="category" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_PARM PARM_NAME="ATTR_LIST_GROUP" PARM_VALUE=""/>
+#!     <XFORM_PARM PARM_NAME="ATTR_TABLE" PARM_VALUE="category,"/>
+#!     <XFORM_PARM PARM_NAME="TRANSFORMER_GROUP" PARM_VALUE=""/>
+#!     <XFORM_PARM PARM_NAME="XFORMER_NAME" PARM_VALUE="AttributeExposer"/>
+#! </TRANSFORMER>
 #! </TRANSFORMERS>
 #! <FEAT_LINKS>
 #! <FEAT_LINK
@@ -208,10 +340,40 @@
 #!   EXTRA_POINTS=""
 #! />
 #! <FEAT_LINK
+#!   IDENTIFIER="11"
+#!   SOURCE_NODE="3"
+#!   TARGET_NODE="10"
+#!   SOURCE_PORT_DESC="fo 0 OUTPUT"
+#!   TARGET_PORT_DESC="fi 0 "
+#!   ENABLED="true"
+#!   EXECUTION_IDX="0"
+#!   HIDDEN="false"
+#!   COLOUR="0.95686274509803926,0.95294117647058818,0.92941176470588238,1"
+#!   PEN_WIDTH="4"
+#!   PEN_STYLE="1"
+#!   LINK_STYLE_NAME="&lt;Default&gt;"
+#!   EXTRA_POINTS=""
+#! />
+#! <FEAT_LINK
 #!   IDENTIFIER="8"
 #!   SOURCE_NODE="6"
 #!   TARGET_NODE="3"
 #!   SOURCE_PORT_DESC="fo 0 OUTPUT"
+#!   TARGET_PORT_DESC="fi 0 "
+#!   ENABLED="true"
+#!   EXECUTION_IDX="0"
+#!   HIDDEN="false"
+#!   COLOUR="0.95686274509803926,0.95294117647058818,0.92941176470588238,1"
+#!   PEN_WIDTH="4"
+#!   PEN_STYLE="1"
+#!   LINK_STYLE_NAME="&lt;Default&gt;"
+#!   EXTRA_POINTS=""
+#! />
+#! <FEAT_LINK
+#!   IDENTIFIER="13"
+#!   SOURCE_NODE="10"
+#!   TARGET_NODE="12"
+#!   SOURCE_PORT_DESC="fo 0 MAPPED"
 #!   TARGET_PORT_DESC="fi 0 "
 #!   ENABLED="true"
 #!   EXECUTION_IDX="0"
@@ -286,7 +448,12 @@ FACTORY_DEF {*} TestFactory    FACTORY_NAME { RandomNumberGenerator_MaxRejecter 
 FACTORY_DEF {*} TestFactory    FACTORY_NAME { RandomNumberGenerator_PlacesRejecter }    INPUT { FEATURE_TYPE RandomNumberGenerator__toPlacesRejecter__ }    TEST { "0" TYPE INT ENCODED }    PRESERVE_FEATURE_ORDER PER_OUTPUT_PORT    OUTPUT { PASSED FEATURE_TYPE RandomNumberGenerator__toOutput__ }
 FACTORY_DEF {*} TeeFactory    FACTORY_NAME { RandomNumberGenerator_RandomNumberGenerator }    INPUT { FEATURE_TYPE RandomNumberGenerator__toOutput__ }    OUTPUT { FEATURE_TYPE RandomNumberGenerator_OUTPUT         @Tcl2("RandomNumberGenerator_generator {1} {40} {0} ")          }
 # -------------------------------------------------------------------------
-FACTORY_DEF {*} AttrSetFactory    FACTORY_NAME { AttributeCreator }    COMMAND_PARM_EVALUATION SINGLE_PASS    INPUT  FEATURE_TYPE RandomNumberGenerator_OUTPUT    MULTI_FEATURE_MODE { NO }    NULL_ATTR_MODE { NO_OP }    ATTRSET_CREATE_DIRECTIVES _PROPAGATE_MISSING_FDIV    NUM_OF_COLUMNS 5    ATTR_ACTION { "" "active" "SET_TO" "FME_CONDITIONAL:DEFAULT_VALUE'inactive'BOOL_OP;OR;COMPOSITE_TEST;1;CASE_INSENSITIVE_TEST <at>Evaluate<openparen><at>Value<openparen>value<closeparen><solidus>2<closeparen> ENDS_WITH .5'active'FME_NUM_CONDITIONS2___" "varchar<openparen>200<closeparen>" }      ATTR_ACTION { "" "status" "SET_TO" "FME_CONDITIONAL:DEFAULT_VALUE'complete'BOOL_OP;OR;COMPOSITE_TEST;1;CASE_INSENSITIVE_TEST <at>Evaluate<openparen><at>Value<openparen>value<closeparen><solidus>3<closeparen> CONTAINS .33'incomplete'BOOL_OP;OR;COMPOSITE_TEST;1;CASE_INSENSITIVE_TEST <at>Evaluate<openparen><at>Value<openparen>value<closeparen><solidus>3<closeparen> CONTAINS .66'repair'FME_NUM_CONDITIONS3___" "varchar<openparen>200<closeparen>" }      ATTR_ACTION { "" "shape" "SET_TO" "FME_CONDITIONAL:DEFAULT_VALUE'star'BOOL_OP;OR;COMPOSITE_TEST;1;CASE_INSENSITIVE_TEST <at>Evaluate<openparen><at>Value<openparen>value<closeparen><solidus>4<closeparen> ENDS_WITH .25'square'BOOL_OP;OR;COMPOSITE_TEST;1;CASE_INSENSITIVE_TEST <at>Evaluate<openparen><at>Value<openparen>value<closeparen><solidus>4<closeparen> ENDS_WITH .5'circle'BOOL_OP;OR;COMPOSITE_TEST;1;CASE_INSENSITIVE_TEST <at>Evaluate<openparen><at>Value<openparen>value<closeparen><solidus>4<closeparen> ENDS_WITH .75'triangle'FME_NUM_CONDITIONS4___" "varchar<openparen>200<closeparen>" }      ATTR_ACTION { "" "color" "SET_TO" "FME_CONDITIONAL:DEFAULT_VALUE'yellow'BOOL_OP;OR;COMPOSITE_TEST;1;CASE_INSENSITIVE_TEST <at>Evaluate<openparen><at>Value<openparen>value<closeparen><solidus>5<closeparen> ENDS_WITH .2'black'BOOL_OP;OR;COMPOSITE_TEST;1;CASE_INSENSITIVE_TEST <at>Evaluate<openparen><at>Value<openparen>value<closeparen><solidus>5<closeparen> ENDS_WITH .4'blue'BOOL_OP;OR;COMPOSITE_TEST;1;CASE_INSENSITIVE_TEST <at>Evaluate<openparen><at>Value<openparen>value<closeparen><solidus>5<closeparen> ENDS_WITH .6'green'BOOL_OP;OR;COMPOSITE_TEST;1;CASE_INSENSITIVE_TEST <at>Evaluate<openparen><at>Value<openparen>value<closeparen><solidus>5<closeparen> ENDS_WITH .8'red'FME_NUM_CONDITIONS5___" "varchar<openparen>200<closeparen>" }
+FACTORY_DEF {*} AttrSetFactory    FACTORY_NAME { AttributeCreator }    COMMAND_PARM_EVALUATION SINGLE_PASS    INPUT  FEATURE_TYPE RandomNumberGenerator_OUTPUT    MULTI_FEATURE_MODE { NO }    NULL_ATTR_MODE { NO_OP }    ATTRSET_CREATE_DIRECTIVES _PROPAGATE_MISSING_FDIV    NUM_OF_COLUMNS 5    ATTR_ACTION { "" "active" "SET_TO" "FME_CONDITIONAL:DEFAULT_VALUE'active'BOOL_OP;OR;COMPOSITE_TEST;1 OR 2;CASE_INSENSITIVE_TEST <at>Evaluate<openparen><at>Value<openparen>value<closeparen><solidus>2<closeparen> ENDS_WITH 0.5;CASE_INSENSITIVE_TEST <at>Evaluate<openparen><at>Value<openparen>value<closeparen><solidus>2<closeparen> ENDS_WITH 5.5'inactive'FME_NUM_CONDITIONS2___" "varchar<openparen>200<closeparen>" }      ATTR_ACTION { "" "status" "SET_TO" "FME_CONDITIONAL:DEFAULT_VALUE'complete'BOOL_OP;OR;COMPOSITE_TEST;1;CASE_INSENSITIVE_TEST <at>Evaluate<openparen><at>Value<openparen>value<closeparen><solidus>3<closeparen> CONTAINS .33'incomplete'BOOL_OP;OR;COMPOSITE_TEST;1;CASE_INSENSITIVE_TEST <at>Evaluate<openparen><at>Value<openparen>value<closeparen><solidus>3<closeparen> CONTAINS .66'repair'FME_NUM_CONDITIONS3___" "varchar<openparen>200<closeparen>" }      ATTR_ACTION { "" "shape" "SET_TO" "FME_CONDITIONAL:DEFAULT_VALUE'star'BOOL_OP;OR;COMPOSITE_TEST;1;CASE_INSENSITIVE_TEST <at>Evaluate<openparen><at>Value<openparen>value<closeparen><solidus>4<closeparen> ENDS_WITH .25'square'BOOL_OP;OR;COMPOSITE_TEST;1;CASE_INSENSITIVE_TEST <at>Evaluate<openparen><at>Value<openparen>value<closeparen><solidus>4<closeparen> ENDS_WITH .5'circle'BOOL_OP;OR;COMPOSITE_TEST;1;CASE_INSENSITIVE_TEST <at>Evaluate<openparen><at>Value<openparen>value<closeparen><solidus>4<closeparen> ENDS_WITH .75'triangle'FME_NUM_CONDITIONS4___" "varchar<openparen>200<closeparen>" }      ATTR_ACTION { "" "color" "SET_TO" "FME_CONDITIONAL:DEFAULT_VALUE'yellow'BOOL_OP;OR;COMPOSITE_TEST;1;CASE_INSENSITIVE_TEST <at>Evaluate<openparen><at>Value<openparen>value<closeparen><solidus>5<closeparen> ENDS_WITH .2'black'BOOL_OP;OR;COMPOSITE_TEST;1;CASE_INSENSITIVE_TEST <at>Evaluate<openparen><at>Value<openparen>value<closeparen><solidus>5<closeparen> ENDS_WITH .4'blue'BOOL_OP;OR;COMPOSITE_TEST;1;CASE_INSENSITIVE_TEST <at>Evaluate<openparen><at>Value<openparen>value<closeparen><solidus>5<closeparen> ENDS_WITH .6'green'BOOL_OP;OR;COMPOSITE_TEST;1;CASE_INSENSITIVE_TEST <at>Evaluate<openparen><at>Value<openparen>value<closeparen><solidus>5<closeparen> ENDS_WITH .8'red'FME_NUM_CONDITIONS5___" "varchar<openparen>200<closeparen>" }    OUTPUT { OUTPUT FEATURE_TYPE AttributeCreator_OUTPUT        }
+# -------------------------------------------------------------------------
+MACRO SchemaMapper_DIRECTIVES ADVANCED "" ALLOW_DOLLAR_SIGNS YES APPLY_FILTERS No CASE_SENSITIVE_FEATURE_TYPES YES CONFIGURATION_DATASET "$(FME_MF_DIR)SchemaMapper_DataMapping.xlsx" CREATE_FEATURE_TABLES_FROM_DATA Yes EXCEL_COL_NAMES YES EXPAND_MERGED_CELLS Yes EXPANDED_DATES_SCANNING No EXPOSE_ATTRS_GROUP "" FORCE_DATETIME NO NETWORK_AUTHENTICATION "" QUERY_FEATURE_TYPES_FOR_MERGE_FILTERS Yes READ_BLANK_AS Null READ_FORM_CONTROLS NONE READ_RASTER_MODE None REPLACE_ONLY_NEWLINES_CARRIAGE_RETURNS YES SCAN_FOR_GEOMETRIC_TYPES Yes SCAN_MAX_FEATURES 1000 SCHEMA Sheet1,0<comma>input_field_1<comma>char<comma>6<comma><comma><comma>1<comma>input_value_1<comma>char<comma>6<comma><comma><comma>2<comma>input_field_2<comma>char<comma>6<comma><comma><comma>3<comma>input_value_2<comma>char<comma>8<comma><comma><comma>4<comma>input_field_3<comma>char<comma>5<comma><comma><comma>5<comma>input_value_3<comma>char<comma>4<comma><comma><comma>6<comma>input_field_4<comma>char<comma>5<comma><comma><comma>7<comma>input_value_4<comma>char<comma>6<comma><comma><comma>8<comma>output_field<comma>char<comma>8<comma><comma><comma>9<comma>output_value<comma>char<comma>13<comma><comma>,1<comma><comma><comma>,NO<comma>NO<comma>1<comma>C:<lt>backslash<gt>Users<lt>backslash<gt>Gavin<lt>backslash<gt>Documents<lt>backslash<gt>FME<lt>backslash<gt>Repositories<lt>backslash<gt>Training-SchemaMapper<lt>backslash<gt>SchemaMapper_DataMapping.xlsx<comma><quote>0<comma>0<comma>9<comma>8<quote><comma><comma>NO<comma>NO SCHEMA_HANDLING_REVISION 2 SKIP_EMPTY_ROWS YES STRIP_SHEETNAME_SPACES YES TABLELIST Sheet1 TRIM_ATTR_NAME_CHARACTERS "" TRIM_ATTR_NAME_WHITESPACE Yes USE_CUSTOM_SCHEMA NO XLSXR_EXPOSE_FORMAT_ATTRS ""
+FACTORY_DEF {*} SchemaMappingFactory    FACTORY_NAME { SchemaMapper_Mapper }    INPUT  FEATURE_TYPE AttributeCreator_OUTPUT    PRESERVE_FEATURE_ORDER { PER_OUTPUT_PORT }    DB_TYPE { XLSXR }    DB_DATASET { "$(FME_MF_DIR_USERTYPED)SchemaMapper_DataMapping.xlsx" }    DB_TABLE { "Sheet1" }    DB_DIRECTIVES { $(SchemaMapper_DIRECTIVES) }    FILTER_COLUMNS { input_field_1 input_value_1$(FME_ASC_16) input_field_2 input_value_2$(FME_ASC_16) input_field_3 input_value_3$(FME_ASC_16) input_field_4 input_value_4$(FME_ASC_16) }    INDEX_MAPPING_COLUMNS { "" "" fme_feature_type fme_feature_type }    ATTR_MAPPING_COLUMNS { """""" output_field output_value }    ROW_ID_ATTR { _schemamapper_row_ids }    EXPR_PREFIX { fmeexpression= }    OUTPUT { MAPPED FEATURE_TYPE SchemaMapper_MAPPED         }
+# -------------------------------------------------------------------------
+FACTORY_DEF {*} TeeFactory    FACTORY_NAME { AttributeExposer }    INPUT  FEATURE_TYPE SchemaMapper_MAPPED
 # -------------------------------------------------------------------------
 
 FACTORY_DEF * RoutingFactory FACTORY_NAME "Destination Feature Type Routing Correlator"   COMMAND_PARM_EVALUATION SINGLE_PASS   INPUT FEATURE_TYPE *   FEATURE_TYPE_ATTRIBUTE __wb_out_feat_type__   OUTPUT ROUTED FEATURE_TYPE *    OUTPUT NOT_ROUTED FEATURE_TYPE __nuke_me__ @Tcl2("FME_StatMessage 818059 [FME_GetAttribute fme_template_feature_type] 818060 818061 fme_warn")
